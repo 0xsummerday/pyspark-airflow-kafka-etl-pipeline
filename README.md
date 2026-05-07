@@ -18,7 +18,7 @@ ETL/ELT workflows using **PySpark**, **Airflow**, and **Kafka**. Includes sample
 
 ### 📂 Repository Structure
 ```text
-data-engineering-pipelines/
+<root_dir>/
 │── etl/                     # Batch ETL workflows using PySpark
 │   ├── pyspark_etl.py       # Example ETL script
 │── elt/                     # ELT pipelines orchestrated with Airflow
@@ -44,8 +44,8 @@ data-engineering-pipelines/
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/melessemenelik/data-engineering-pipelines.git
-cd data-engineering-pipelines
+git clone  https://github.com/0xsummerday/pyspark-airflow-kafka-etl-pipeline.git
+cd pyspark-airflow-kafka-etl-pipeline
 pip install -r requirements.txt
 python etl/pyspark_etl.py
 airflow dags trigger elt_pipeline
